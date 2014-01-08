@@ -1,0 +1,108 @@
+
+
+.gameboard {
+	width: 600px;
+	height: 600px;
+	position: relative;
+	top: 150px;
+	left: 90px;
+
+}
+
+.row1, .row2, .row3 {
+	width: 450px;
+
+
+}
+
+.tile {
+	width: 125px;
+	height: 125px;
+	border: 3px solid #ff1493;
+	float: left;
+	background-color: none; 
+}
+
+#one {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-left: none;
+	border-top: none;
+
+
+}
+
+#two {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-top: none;
+}
+
+
+
+#three {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-right: none;
+	border-top: none;
+
+
+}
+
+#four {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-left: none;
+	border-top: none;
+}
+
+
+#five {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-left: none;
+	border-top: none;
+}
+
+
+
+#six {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-right: none;
+	border-top: none;
+
+
+}
+
+#seven {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-left: none;
+	border-bottom: none;
+}
+
+#eight {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-left: none;
+	border-bottom: none;
+}
+
+#nine {
+	background-image: url('Blank2.png');
+	background-size: cover;
+	border-right: none;
+	border-bottom: none;
+
+
+}
+
+
+body {
+	background-image: url("sheride.jpg");
+	background-size: cover;
+
+
+}
+
