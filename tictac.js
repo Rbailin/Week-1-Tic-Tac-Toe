@@ -106,7 +106,8 @@ if (moves [0][0]=="o" && moves [1][0]=="o" && moves [2][0]=="o")
 
 function reset(){
 	var cells = document.getElementsByClassName("tile");
-	for(var i=0; i<cells.length; i++) {
+	for(var i=0; i<cells.length; i++) 
+{
 		cells[i].innerHTML="";
 	}
 	moves= [[null, null, null], [null, null, null], [null, null, null]];
