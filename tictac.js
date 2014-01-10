@@ -11,6 +11,7 @@ function clickStuff(){
 	if (counter == 9)
 	{
 		console.log("Game End");
+		alert("Road Rash - Game End!")
 	}
 
 if (this.innerHTML=="")
@@ -47,54 +48,54 @@ checkWin();
 
 function checkWin(){
 if (moves [0][0]=="x" && moves [1][0]=="x" && moves [2][0]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else if (moves [0][1]=="x" && moves [1][1]=="x" && moves [2][1]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else if (moves [0][2]=="x" && moves [1][2]=="x" && moves [2][2]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else if (moves [1][0]=="x" && moves [1][1]=="x" && moves [1][2]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else if (moves [2][0]=="x" && moves [2][1]=="x" && moves [2][2]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else if (moves [0][0]=="x" && moves [1][1]=="x" && moves [2][2]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else if (moves [2][0]=="x" && moves [1][1]=="x" && moves [0][2]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else if (moves [0][0]=="x" && moves [0][1]=="x" && moves [0][2]=="x")
-	alert("Stoked!");
+	alert("You Win - So Stoked!");
 
 else
 
 if (moves [0][0]=="o" && moves [1][0]=="o" && moves [2][0]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
  if (moves [0][1]=="o" && moves [1][1]=="o" && moves [2][1]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
  if (moves [0][2]=="o" && moves [1][2]=="o" && moves [2][2]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
  if (moves [1][0]=="o" && moves [1][1]=="o" && moves [1][2]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
  if (moves [2][0]=="o" && moves [2][1]=="o" && moves [2][2]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
  if (moves [0][0]=="o" && moves [1][1]=="o" && moves [2][2]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
  if (moves [2][0]=="o" && moves [1][1]=="o" && moves [0][2]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
  if (moves [0][0]=="o" && moves [0][1]=="o" && moves [0][2]=="o")
-	alert("Road Rash!");
+	alert("You Win - So Stoked!");
 
 
 }
