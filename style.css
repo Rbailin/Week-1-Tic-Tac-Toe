@@ -139,11 +139,13 @@ height: 150px;
 
 
 #push {
-	background-color: black;
+	background-color: #ff1493;
 	float: right;
 	color: white;
 	position: relative;
 	right: 150px;
 	bottom: 150px;
 	border-radius: 10px;
+	width: 200px;
+	height: 60px;
 		}
